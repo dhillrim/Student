@@ -16,6 +16,27 @@ public class Student {
     private String email;
     private int n;
     private int n2;
+    
+    private boolean PartTime;
+
+    /**
+     * Get the value of PartTime
+     *
+     * @return the value of PartTime
+     */
+    public boolean isPartTime() {
+        return PartTime;
+    }
+
+    /**
+     * Set the value of PartTime
+     *
+     * @param PartTime new value of PartTime
+     */
+    public void setPartTime(boolean PartTime) {
+        this.PartTime = PartTime;
+    }
+
     /**
      * Get the value of email
      *
