@@ -17,6 +17,26 @@ public class Student {
     private int n;
     private int n2;
     
+    private String str;
+
+    /**
+     * Get the value of str
+     *
+     * @return the value of str
+     */
+    public String getStr() {
+        return str;
+    }
+
+    /**
+     * Set the value of str
+     *
+     * @param str new value of str
+     */
+    public void setStr(String str) {
+        this.str = str;
+    }
+
     private boolean PartTime;
 
     /**
